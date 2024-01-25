@@ -5,7 +5,7 @@ import favoritoReducer from './reduce/favorito'
 export const store = configureStore({
   reducer: {
     carrinho: carrinhoReducer,
-    favorita: favoritoReducer
+    favorito: favoritoReducer
   }
 })
 
